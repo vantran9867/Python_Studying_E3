@@ -1,7 +1,7 @@
-from geometric_objects.line import abstract_line
+from geometric_objects.line import AbstractLine
 
 
-class Line(abstract_line):
+class Line(AbstractLine):
     a: float
     b: float
     c: float

@@ -1,4 +1,4 @@
-class abstract_point:
+class AbstractPoint:
     def __init__(self):
         pass
 

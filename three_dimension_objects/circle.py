@@ -1,8 +1,8 @@
-from geometric_objects.shape import Shape
+from geometric_objects.shape import AbstractShape
 from three_dimension_objects.point import Point
 
 
-class Circle(Shape):
+class Circle(AbstractShape):
     center: Point
     radius: float
 

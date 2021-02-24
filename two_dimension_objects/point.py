@@ -1,7 +1,7 @@
-from geometric_objects.point import abstract_point
+from geometric_objects.point import AbstractPoint
 
 
-class Point(abstract_point):
+class Point(AbstractPoint):
     x: float
     y: float
 

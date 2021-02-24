@@ -1,10 +1,10 @@
 import math
-from geometric_objects.shape import Shape
+from geometric_objects.shape import AbstractShape
 from three_dimension_objects.point import Point
 from three_dimension_objects.vector import Vector
 
 
-class Triangle(Shape):
+class Triangle(AbstractShape):
     point1: Point
     point2: Point
     point3: Point

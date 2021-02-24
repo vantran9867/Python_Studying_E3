@@ -1,9 +1,8 @@
-from typing import List
 from two_dimension_objects.point import Point
-from geometric_objects.shape import Shape
+from geometric_objects.shape import AbstractShape
 
 
-class Triangle(Shape):
+class Triangle(AbstractShape):
     point1: Point
     point2: Point
     point3: Point

@@ -1,4 +1,4 @@
-class abstract_line:
+class AbstractLine:
     def __init__(self):
         pass
 

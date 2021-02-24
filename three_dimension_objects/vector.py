@@ -15,7 +15,7 @@ class Vector:
         return "({}, {}, {})".format(self.a, self.b, self.c)
 
     @staticmethod
-    def get_vector_from_two_point(point1: Point, point2: Point):
+    def get_vector_from_two_point(point1: Point, point2: Point) -> 'Vector':
         n1 = point2.x - point1.x
         n2 = point2.y - point1.y
         n3 = point2.z - point1.z
